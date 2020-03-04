@@ -1,0 +1,19 @@
+{
+  "name": "node_s",
+  "version": "1.0.0",
+  "description": "node tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nangelov1990/node_s.git"
+  },
+  "author": "NA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nangelov1990/node_s/issues"
+  },
+  "homepage": "https://github.com/nangelov1990/node_s#readme"
+}
