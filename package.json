@@ -2,10 +2,11 @@
   "name": "node_s",
   "version": "1.0.0",
   "description": "node tutorial project",
-  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test-node"
   },
+  "engine": "12.16.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nangelov1990/node_s.git"
