@@ -1,0 +1,21 @@
+{
+  "name": "node_s",
+  "description": "node tutorial project",
+  "main": "index.js",
+  "authors": [
+    "NA"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nangelov1990/node_s",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.4.1"
+  }
+}
