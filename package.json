@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/nangelov1990/node_s/issues"
   },
-  "homepage": "https://github.com/nangelov1990/node_s#readme"
+  "homepage": "https://github.com/nangelov1990/node_s#readme",
+  "dependencies": {
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-uglify": "3.0.2"
+  }
 }
