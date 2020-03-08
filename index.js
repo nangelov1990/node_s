@@ -1,7 +1,9 @@
 const cluster = require('cluster')
 const http = require('http')
 const cpus = require('os').cpus().length
-const port = 1337
+
+// HEROKU SPECIFIC
+const port = process.env.PORT || 1337
 
 if (cluster.isMaster) {
   for (let i = 0; i < cpus; i++) {
@@ -25,6 +27,12 @@ if (cluster.isMaster) {
 
 // const fs = require('fs')
 // const dirName = './Test'
+
+// fs.readFile('index.js', 'utf8', (err, data) => {
+//   if (err) console.error(err)
+  
+//   console.log(data)
+// })
 
 // fs.exists(dirName, (exists) => {
 //   if (!exists) {
