@@ -5,6 +5,9 @@ const cpus = require('os').cpus().length
 // HEROKU SPECIFIC
 const port = process.env.PORT || 1337
 
+// DEV, STAGE, PROD envs
+const environment = process.env.NODE_ENV
+
 if (cluster.isMaster) {
   for (let i = 0; i < cpus; i++) {
     cluster.fork()
